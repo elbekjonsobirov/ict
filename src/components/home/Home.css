@@ -1,0 +1,43 @@
+.home-card {
+    height: 100%;
+    height: 1000px;
+    background-color: aqua;
+    background-image: url('../imgs/ict_in_schools_01b.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.home-about {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img-bosh-card {
+    background: linear-gradient(white, rgb(146, 144, 144));
+    width: 50px;
+    height: 50px;
+    padding: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+.img-bosh-card .home-bosh {
+    width: 100px;
+}
+
+.home-title {
+    width: 60%;
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    letter-spacing: 1px;
+}
