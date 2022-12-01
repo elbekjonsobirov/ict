@@ -7,7 +7,7 @@ export default function Home() {
     <div className='home-card'>
         <div className="home-about">
             <div className="img-bosh-card">
-            <img src={studentBosh} alt="photo" className='home-bosh'/>
+            <img src={studentBosh} alt="studentBosh" className='home-bosh'/>
             </div>
             <h1 className="home-title">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae delectus facilis, voluptatibus quasi inventore quod placeat accusamus nihil doloremque expedita.
