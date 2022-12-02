@@ -18,6 +18,7 @@
   align-items: center;
   position: sticky;
   top: 0;
+  z-index: 10;
   background-color: white;
 }
 
@@ -88,4 +89,53 @@
 
 .header-modul > span:hover {
   background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+.home-footer {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  background-color: #1e1e1e;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer-title-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-title {
+  color: rgb(208, 205, 205);
+  font-size: 20px;
+  width: 400px;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+}
+
+.footer-share-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-share-title {
+  text-transform: uppercase;
+  color: rgb(208, 205, 205);
+}
+
+.footer-share-urls {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  color: rgb(178, 175, 175) !important;
+  font-size: 18px !important;
+}
+
+.footer-share-urls > i {
+  margin-top: 4px;
 }
