@@ -64,7 +64,7 @@
   position: absolute;
 }
 
-.header-modul > span {
+.header-modul > a {
   height: 40px;
   text-transform: uppercase;
   font-weight: 400;
@@ -74,6 +74,8 @@
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: 0.3s;
+  color: black;
+  text-decoration: none;
 }
 
 .li-span .home-line {
@@ -87,7 +89,7 @@
   height: 246px;
 }
 
-.header-modul > span:hover {
+.header-modul > a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
 

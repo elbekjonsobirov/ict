@@ -1,5 +1,6 @@
 import React from "react";
 import "./Homeswaper.css";
+import {Link} from 'react-router-dom'
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
@@ -38,10 +39,10 @@ export default function Homeswaper() {
             <p className="sw-modul-title">
               Fanning maqsadi va vazifalari, ilmiy tadqiqot faoliyati
             </p>
-            <a href="/" className="sw-link">
+            <Link to="/1-modul" className="sw-link">
               O'qish
               <i class="fa-sharp fa-solid fa-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -55,10 +56,10 @@ export default function Homeswaper() {
               Ilmiy-tadqiqot faoliyatini olib borishda tezislarning ahamiyati va
               ilmiy tezislarni yozish qoidalari
             </p>
-            <a href="/" className="sw-link">
+            <Link to="/2-modul" className="sw-link">
               O'qish
               <i class="fa-sharp fa-solid fa-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -72,10 +73,10 @@ export default function Homeswaper() {
               O'zbekiston Respublikasi Adliya Vazirligi huzuridagi Intellektual
               mulk agentligi va agentlik faoliyati haqida
             </p>
-            <a href="/" className="sw-link">
+            <Link to="/3-modul" className="sw-link">
               O'qish
               <i class="fa-sharp fa-solid fa-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -88,10 +89,10 @@ export default function Homeswaper() {
             <p className="sw-modul-title">
             Uslubiy ko‘rsatmalarni yaratish va chop etish uslublari
             </p>
-            <a href="/" className="sw-link">
+            <Link to="/4-modul" className="sw-link">
               O'qish
               <i class="fa-sharp fa-solid fa-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -104,10 +105,10 @@ export default function Homeswaper() {
             <p className="sw-modul-title">
             Ilmiy-tadqiqot faoliyatini olib borishda ilmiy uslubiy jurnallar. SCOPUS va Web of science bazasi
             </p>
-            <a href="/" className="sw-link">
+            <Link to="/5-modul" className="sw-link">
               O'qish
               <i class="fa-sharp fa-solid fa-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -120,10 +121,10 @@ export default function Homeswaper() {
             <p className="sw-modul-title">
             Bitiruv malakaviy ishlar haqida va yozish qoidalari
             </p>
-            <a href="/" className="sw-link">
+            <Link to="/6-modul" className="sw-link">
               O'qish
               <i class="fa-sharp fa-solid fa-arrow-right"></i>
-            </a>
+            </Link>
           </div>
         </SwiperSlide>
       </Swiper>
